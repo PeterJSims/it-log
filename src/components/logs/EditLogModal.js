@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import TechSelectOptions from '../techs/TechSelectOptions';
+
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize';
@@ -44,7 +46,7 @@ const EditLogModal = ({ updateLog, current }) => {
 	return (
 		<div id="edit-log-modal" className="modal" style={modalStyle}>
 			<div className="modal-content">
-				<h4>Enter System Log</h4>
+				<h4>Update System Log</h4>
 				<div className="row">
 					<div className="input-field">
 						<input
@@ -66,9 +68,7 @@ const EditLogModal = ({ updateLog, current }) => {
 							<option value="" disabled>
 								Select Technician
 							</option>
-							<option value="John Doe">John Doe</option>
-							<option value="Sam Smith">Sam Smith</option>
-							<option value="Sara Wilson">Sara Wilson</option>
+							<TechSelectOptions />
 						</select>
 					</div>
 				</div>
