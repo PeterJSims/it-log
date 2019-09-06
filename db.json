@@ -6,13 +6,6 @@
       "tech": "Sara Wilson",
       "date": "2019-09-06T17:11:22.322Z",
       "id": 1
-    },
-    {
-      "message": "Move storage to SSD 004",
-      "attention": true,
-      "tech": "Sam Smith",
-      "date": "2019-09-06T17:11:54.271Z",
-      "id": 2
     }
   ],
   "techs": [
