@@ -1,11 +1,18 @@
 {
   "logs": [
     {
+      "id": 1,
       "message": "Update drivers on sound card 004",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-09-06T17:11:22.322Z",
-      "id": 1
+      "tech": "Sam Smith",
+      "date": "2019-09-06T17:46:53.276Z"
+    },
+    {
+      "id": 2,
+      "message": "Server merge",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2019-09-06T17:46:47.770Z"
     }
   ],
   "techs": [
